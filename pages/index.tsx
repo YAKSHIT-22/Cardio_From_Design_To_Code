@@ -55,7 +55,7 @@ const FitnessLandingPage: NextPage = () => {
   }, []);
 
   return (
-    <div className="relative bg-black w-full flex flex-col items-start justify-start text-left text-3xs text-white font-poppins">
+   <><div className="relative bg-black w-full flex flex-col items-start justify-start text-left text-3xs text-white font-poppins">
       <div className="self-stretch flex flex-col py-[53px] px-[120px] items-start justify-start lg:pl-[60px] lg:pr-[60px] lg:box-border md:pl-10 md:pr-10 md:box-border sm:py-[30px] sm:px-5 sm:box-border">
         <div className="self-stretch flex flex-row items-center justify-between">
           <button
@@ -587,8 +587,6 @@ const FitnessLandingPage: NextPage = () => {
               className="font-semibold font-roboto text-lg bg-[transparent] flex-1 rounded-md box-border h-[70px] flex flex-row py-[30px] px-10 items-center justify-start text-[FFFFFF] border-[1px] border-solid border-white md:flex-[unset] md:self-stretch"
               type="text"
               placeholder="Email"
-              maxLength
-              minLength
             />
             <button
               className="cursor-pointer [border:none] py-6 px-[43px] bg-mediumseagreen rounded-3xs flex flex-row items-start justify-center hover:bg-seagreen md:w-full"
@@ -603,7 +601,7 @@ const FitnessLandingPage: NextPage = () => {
           </form>
         </div>
       </div>
-    </div>
+    </div></> 
   );
 };
 
