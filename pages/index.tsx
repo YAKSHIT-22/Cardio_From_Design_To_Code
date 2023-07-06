@@ -579,12 +579,12 @@ const FitnessLandingPage: NextPage = () => {
           </div>
           <form
             className="self-stretch flex flex-row items-start justify-start gap-[21px] md:flex-col"
-            action="https://www.locofy.ai"
+          
             method="post"
             id="formID"
           >
             <input
-              className="font-semibold font-roboto text-lg bg-[transparent] flex-1 rounded-md box-border h-[70px] flex flex-row py-[30px] px-10 items-center justify-start text-[FFFFFF] border-[1px] border-solid border-white md:flex-[unset] md:self-stretch"
+              className="font-semibold font-roboto text-lg bg-[transparent] flex-1 rounded-md box-border h-[70px] flex flex-row py-[30px] px-10 items-center justify-start text-[#FFFFFF] border-[1px] border-solid border-white md:flex-[unset] md:self-stretch"
               type="text"
               placeholder="Email"
             />
@@ -592,7 +592,7 @@ const FitnessLandingPage: NextPage = () => {
               className="cursor-pointer [border:none] py-6 px-[43px] bg-mediumseagreen rounded-3xs flex flex-row items-start justify-center hover:bg-seagreen md:w-full"
               type="submit"
               form="formID"
-              onClick={onButton3Click}
+             
             >
               <div className="relative text-lg tracking-[1px] leading-[22px] font-semibold font-poppins text-white text-left">
                 Subscribe
